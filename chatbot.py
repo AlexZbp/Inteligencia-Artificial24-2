@@ -58,7 +58,7 @@ def get_horoscope(sign):
                     "Establece metas realistas. El logro de pequeños objetivos te dará un sentido de logro.\n "
                     "Sé pragmático en la toma de decisiones. La lógica será tu guía en situaciones desafiantes." )
 
-    return f"¡Este es el Horóscopo de día para {sign}!"
+    return f"¡Este es el Horóscopo del día para {sign}!"
 
 def get_sign_description(sign):
     # Lógica para obtener la descripción del signo
@@ -67,7 +67,7 @@ def get_sign_description(sign):
               "A riesgo de ganarse la reputación de distantes y distanciadas, este signo analítico\n"
               "e innovador prefiere situarse al margen de la multitud en lugar de seguir al rebaño." )
     elif sign == 'Piscis':
-        print("🔮: ♓ tiende a ver el mundo a través de lentes de sol color de rosa, pero su alma romántica\n "
+        print("🔮: ♓ Tiende a ver el mundo a través de lentes de sol color de rosa, pero su alma romántica\n "
               "se basa en un profundo sentido de la intuición, la sensibilidad y la empatía que le ayudan a\n"
               "conectar con la gente a un nivel más profundo, incluso más allá de lo que el mundo ve." )
     elif sign == 'Aries':
@@ -111,41 +111,41 @@ def get_sign_description(sign):
 def get_fun_facts(sign):
     # Lógica para obtener los datos curiosos del signo
     if sign == 'Acuario':
-        print("🔮: ♒ Acuario es conocido por ser el signo más rebelde del zodiaco. Los acuarianos son personas innovadoras e independientes que valoran la libertad de pensamiento y acción. \n 
+        print("🔮: ♒ Acuario es conocido por ser el signo más rebelde del zodiaco. Los acuarianos son personas innovadoras e independientes que valoran la libertad de pensamiento y acción. \n" 
         "A menudo se les describe como excéntricos y impredecibles, pero también son amables y humanitarios. " )
     elif sign == 'Piscis':
-        print("🔮: ♓ Piscis es conocido por ser el signo más místico del zodiaco. Los piscianos son personas sensibles e intuitivas que valoran la conexión emocional y espiritual.\n 
+        print("🔮: ♓ Piscis es conocido por ser el signo más místico del zodiaco. Los piscianos son personas sensibles e intuitivas que valoran la conexión emocional y espiritual.\n "
         "A menudo se les describe como soñadores y escapistas, pero también son compasivos y creativos.  " )
     elif sign == 'Aries':
-        print("🔮: ♈ Aries es el primer signo del zodiaco y por ello representa el comienzo de un nuevo ciclo. \n 
-        "Este signo está asociado con la energía, la iniciativa y la acción. Los arianos son conocidos por ser valientes, \n 
+        print("🔮: ♈ Aries es el primer signo del zodiaco y por ello representa el comienzo de un nuevo ciclo. \n "
+        "Este signo está asociado con la energía, la iniciativa y la acción. Los arianos son conocidos por ser valientes, \n" 
         "apasionados y decididos. Si eres Aries, es probable que tengas una personalidad fuerte y un gran sentido de la aventura." )
     elif sign == 'Tauro':
-        print("🔮: ♉ Tauro es conocido por ser el signo más terco del zodiaco. Los taurinos son personas prácticas y trabajadoras que valoran \n 
+        print("🔮: ♉ Tauro es conocido por ser el signo más terco del zodiaco. Los taurinos son personas prácticas y trabajadoras que valoran \n "
         "la estabilidad y la seguridad. A menudo se les describe como obstinados y difíciles de convencer, pero también son leales y confiables. " )
     elif sign == 'Geminis':
-        print("🔮: ♊ Géminis es el signo más dual del zodiaco. Los geminianos son conocidos por su habilidad para adaptarse a diferentes situaciones \n 
+        print("🔮: ♊ Géminis es el signo más dual del zodiaco. Los geminianos son conocidos por su habilidad para adaptarse a diferentes situaciones \n "
         "y por tener dos personalidades distintas. A veces pueden ser divertidos y sociables, mientras que otras veces pueden ser reservados y solitarios. " )
     elif sign == 'Cáncer':
-        print("🔮: ♋ Cáncer es conocido por ser el signo más emocional del zodiaco. Los cancerianos son personas sensibles y empáticas que valoran las relaciones \n 
+        print("🔮: ♋ Cáncer es conocido por ser el signo más emocional del zodiaco. Los cancerianos son personas sensibles y empáticas que valoran las relaciones \n "
         "íntimas y el hogar. A menudo se les describe como emocionales y melancólicos, pero también son protectores y leales. " )
     elif sign == 'Leo':
-        print("🔮: ♌ Leo es conocido por ser el signo más vanidoso del zodiaco. Los leoninos son personas seguras de sí mismas y ambiciosas que valoran la atención \n 
+        print("🔮: ♌ Leo es conocido por ser el signo más vanidoso del zodiaco. Los leoninos son personas seguras de sí mismas y ambiciosas que valoran la atención \n "
         "y el reconocimiento. A menudo se les describe como arrogantes y egocéntricos, pero también son generosos y leales. " )
     elif sign == 'Virgo':
-        print("🔮: ♍ Virgo es conocido por ser el signo más perfeccionista del zodiaco. Los virginianos son personas organizadas y detallistas que valoran la precisión y \n 
+        print("🔮: ♍ Virgo es conocido por ser el signo más perfeccionista del zodiaco. Los virginianos son personas organizadas y detallistas que valoran la precisión y \n "
         "la eficiencia. A menudo se les describe como críticos y exigentes, pero también son trabajadores y dedicados. " )
     elif sign == 'Libra':
-        print("🔮: ♎ Libra es conocido por ser el signo más equilibrado del zodiaco. Los librianos son personas pacíficas y armoniosas que valoran la justicia y la igualdad. \n 
+        print("🔮: ♎ Libra es conocido por ser el signo más equilibrado del zodiaco. Los librianos son personas pacíficas y armoniosas que valoran la justicia y la igualdad. \n "
         "A menudo se les describe como diplomáticos y amables, pero también pueden ser indecisos y evasivos. " )
     elif sign == 'Escorpio':
-        print("🔮: ♏  Escorpio es conocido por ser el signo más intenso del zodiaco. Los escorpianos son personas apasionadas y misteriosas que valoran la profundidad emocional \n 
+        print("🔮: ♏  Escorpio es conocido por ser el signo más intenso del zodiaco. Los escorpianos son personas apasionadas y misteriosas que valoran la profundidad emocional \n "
         "y la transformación personal. A menudo se les describe como celosos y posesivos, pero también son leales y comprometidos." )
     elif sign == 'Sagitario':
-        print("🔮: ♐ Sagitario es conocido por ser el signo más aventurero del zodiaco. Los sagitarianos son personas optimistas y entusiastas que valoran la libertad y la exploración.\n 
+        print("🔮: ♐ Sagitario es conocido por ser el signo más aventurero del zodiaco. Los sagitarianos son personas optimistas y entusiastas que valoran la libertad y la exploración.\n "
         "A menudo se les describe como imprudentes y arrogantes, pero también son sinceros y generosos. " )
     elif sign == 'Capricornio':
-        print("🔮: ♑ Capricornio es conocido por ser el signo más ambicioso del zodiaco. Los capricornianos son personas trabajadoras y disciplinadas que valoran el éxito y el logro personal. \n 
+        print("🔮: ♑ Capricornio es conocido por ser el signo más ambicioso del zodiaco. Los capricornianos son personas trabajadoras y disciplinadas que valoran el éxito y el logro personal. \n "
         "A menudo se les describe como fríos y distantes, pero también son leales y responsables. " )
 
     return f"Estos son algunos datos curiosos sobre tu signo {sign}"
@@ -268,6 +268,20 @@ def get_chinese_horoscope(año):
 
     return f"El animal para el año {año} segun el horoscopo chino es este."
 
+    # Función para mostrar las opciones disponibles
+def show_options():
+    print(" 🔮 Bienvenido al Botroscopo, puedes preguntarme sobre:")
+    print("- El horóscopo del día, solo pon horóscopo")
+    print("- La descripción de un signo zodiacal, solo pon descripción.")
+    print("- Algunos datos curiosos de un signo zodiacal, solo pon datos curiosos.")
+    print("- El rango de fechas de un signo zodiacal, solo pon rango de fechas.")
+    print("- La compatibilidad de un signo con otros, solo pon compatibilidad.")
+    print("- Algún consejo para tu signo zodiacal, solo pon consejo.")
+    print("- El animal de signo tu zodiacal en el horóscopo chino, solo pon chino.")
+    print("- Para salir escribe: exit, q o quit.")
+    print(" 🔮 Por favor escribe tu signo con mayúscula y escribe los acentos 🔮")
+    
+
 
 # Condiciones de salida
 exit_conditions = (":q", "quit", "exit")
@@ -279,6 +293,10 @@ while True:
     # Verificar condiciones de salida
     if query in exit_conditions:
         break
+
+    # Muestra las opciones al usuario 
+    elif "opciones" in query.lower():
+        show_options()
 
     # Consultas específicas
     elif "horóscopo" in query.lower():
