@@ -306,8 +306,8 @@ while True:
         print(get_tips(signo))
 
     elif "chino" in query.lower():
-        año = input("Ingresa tu año de nacimiento: ")
-        print(get_chinese_horoscope(año))
+        animal = input("Ingresa tu año de nacimiento: ")
+        print(get_chinese_horoscope(animal))
 
     # Respuestas generales del chatbot
     else:
